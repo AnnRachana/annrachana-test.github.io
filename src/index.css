@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-size: 1.9rem;
+  line-height: 1.6;
+  font-family: 'Raleway', Times,serif;
+  /* color: #000; */
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+h1, h2, h3, h4, h5, h6{
+  letter-spacing: 0.1rem;
+}
+img{
+  width: 100%;
+  display: block;
+}
+button{
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  /* font-family: inherit; */
+  font-size: 1.8rem;
+}
+input, textarea, select{
+  outline: 0;
+  border: none;
+  resize: none;
+}

@@ -1,0 +1,21 @@
+.navbar.scrolled {
+    background-color:transparent;
+}
+.navbar.scrolled .navbar-nav{
+    background-color: rgba(143, 168, 187, 0.182);
+        backdrop-filter: blur(15px);
+}
+.navbar.scrolled .navbar-nav li a{
+
+    color: #1c1c1c;
+}
+
+.navbar.scrolled .navbar-brand span {
+    color: #1c1c1c;
+
+}
+.navbar.scrolled .button-txt:after {
+    background-image: linear-gradient(135deg, rgb(222, 129, 25) 0%, rgb(222, 129, 25) 10%, rgb(201, 113, 31) 10%, rgb(201, 113, 31) 23%, rgb(181, 97, 38) 23%, rgb(181, 97, 38) 26%, rgb(160, 82, 44) 26%, rgb(160, 82, 44) 27%, rgb(139, 66, 50) 27%, rgb(139, 66, 50) 38%, rgb(119, 50, 57) 38%, rgb(119, 50, 57) 54%, rgb(98, 34, 63) 54%, rgb(98, 34, 63) 100%), linear-gradient(45deg, rgb(222, 129, 25) 0%, rgb(222, 129, 25) 10%, rgb(201, 113, 31) 10%, rgb(201, 113, 31) 23%, rgb(181, 97, 38) 23%, rgb(181, 97, 38) 26%, rgb(160, 82, 44) 26%, rgb(160, 82, 44) 27%, rgb(139, 66, 50) 27%, rgb(139, 66, 50) 38%, rgb(119, 50, 57) 38%, rgb(119, 50, 57) 54%, rgb(98, 34, 63) 54%, rgb(98, 34, 63) 100%), linear-gradient(0deg, rgb(222, 129, 25) 0%, rgb(222, 129, 25) 10%, rgb(201, 113, 31) 10%, rgb(201, 113, 31) 23%, rgb(181, 97, 38) 23%, rgb(181, 97, 38) 26%, rgb(160, 82, 44) 26%, rgb(160, 82, 44) 27%, rgb(139, 66, 50) 27%, rgb(139, 66, 50) 38%, rgb(119, 50, 57) 38%, rgb(119, 50, 57) 54%, rgb(98, 34, 63) 54%, rgb(98, 34, 63) 100%), linear-gradient(90deg, rgb(163, 190, 151), rgb(250, 185, 29));
+        background-blend-mode: overlay, overlay, overlay, normal;
+    
+}

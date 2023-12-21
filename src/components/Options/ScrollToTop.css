@@ -1,0 +1,43 @@
+.top-to-btm{
+  position: relative;
+}
+.icon-position{
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+.icon-style{
+  background-image: linear-gradient(135deg, rgb(222, 129, 25) 0%, rgb(222, 129, 25) 10%, rgb(201, 113, 31) 10%, rgb(201, 113, 31) 23%, rgb(181, 97, 38) 23%, rgb(181, 97, 38) 26%, rgb(160, 82, 44) 26%, rgb(160, 82, 44) 27%, rgb(139, 66, 50) 27%, rgb(139, 66, 50) 38%, rgb(119, 50, 57) 38%, rgb(119, 50, 57) 54%, rgb(98, 34, 63) 54%, rgb(98, 34, 63) 100%), linear-gradient(45deg, rgb(222, 129, 25) 0%, rgb(222, 129, 25) 10%, rgb(201, 113, 31) 10%, rgb(201, 113, 31) 23%, rgb(181, 97, 38) 23%, rgb(181, 97, 38) 26%, rgb(160, 82, 44) 26%, rgb(160, 82, 44) 27%, rgb(139, 66, 50) 27%, rgb(139, 66, 50) 38%, rgb(119, 50, 57) 38%, rgb(119, 50, 57) 54%, rgb(98, 34, 63) 54%, rgb(98, 34, 63) 100%), linear-gradient(0deg, rgb(222, 129, 25) 0%, rgb(222, 129, 25) 10%, rgb(201, 113, 31) 10%, rgb(201, 113, 31) 23%, rgb(181, 97, 38) 23%, rgb(181, 97, 38) 26%, rgb(160, 82, 44) 26%, rgb(160, 82, 44) 27%, rgb(139, 66, 50) 27%, rgb(139, 66, 50) 38%, rgb(119, 50, 57) 38%, rgb(119, 50, 57) 54%, rgb(98, 34, 63) 54%, rgb(98, 34, 63) 100%), linear-gradient(90deg, rgb(163, 190, 151), rgb(250, 185, 29));
+  background-blend-mode: overlay, overlay, overlay, normal;
+  border: 2px solid #fff;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all .5s ease-in-out;
+}
+.icon-style:hover{
+  animation: none;
+  background: #fff;
+  color: orangered;
+  border: 2px solid orangered;
+}
+@keyframes movebtn {
+  0%{
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(20px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
